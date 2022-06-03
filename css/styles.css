@@ -80,13 +80,14 @@ color: var(--text-color);
     line-height: 1.88;
     font-family: inherit;
     letter-spacing: 0.06em;
-    color: var(--text-color);
+    color: #FFFFFF;
+    background-color: var(--brand-color);
     cursor: pointer;
 }
 .title-button:hover,
 .title-button:focus {
-    color: var(--accent-color);
-    background-color: var(--brand-color);
+    /* color: var(--accent-color); */
+    background-color: #188ce8;
 }
 .features {
     list-style-type: none;
